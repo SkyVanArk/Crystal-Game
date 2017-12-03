@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Homework 4 for UT Coding Boot Camp">
+        <meta name="author" content="Isaac J. Lee">
+
+        <title>Crystal Collector</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/primary.css">   
+
+        
+        
+
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 class="text-center">Crypto-Currency Collector</h1>
+        </div>
+
+
+            <div class="container-fluid">
+                    <div class="col-4">
+                        <div class="container section1">
+                            <h2>Directions:</h2>
+                
+                                <p>You are about to begin investing in the wonderful world of CRYPTOCURRENCIES</p>
+                                <p>Each currency is fluctuates in value against the dollar</p>
+                                <p>Be sure to diversify your investment in order to obtain the desired value!</p>
+                        </div>   
+                    </div>
+                    <div class="col-4">
+                        <div class="container section2">
+                            <div class ="row" id="userStats">
+                                <p>Wins: <strong><span id="numWins"></span></strong></p>
+                                <p>Losses: <strong><span id="numLosses"></span></strong></p>
+                            </div>
+                            <div class="row shift">
+                                <p>You need a total of <span id="targetSum"></span>!</p>
+                                <p>So far you have <strong><span id="currentSum"></span></strong>.</p>
+                            </div>
+                            <div class="row shift">
+                                <img class="cryptos" src="assets/images/bitcoin.png" alt="orange crystal">
+                                <img class="cryptos" src="assets/images/Etherium.png" alt="blue crystal">
+                            </div>
+                            <div class="row shift">
+                                <img class="cryptos" src="assets/images/litecoin.png" alt="green crystal">
+                                <img class="cryptos" src="assets/images/ripple.png" alt="purple crystal">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                    </div>
+            </div>
+
+            
+        
+
+        <div id="popup_background"></div>
+
+        <div id="popup" class="container">
+            <p id="outputMessage"></p>
+        </div>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+        </script>
+        <script type="text/javascript" src="assets/javascript/logic.js"></script>
+    </body>
+</html>
